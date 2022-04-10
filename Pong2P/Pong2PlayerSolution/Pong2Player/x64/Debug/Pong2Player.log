@@ -1,0 +1,5 @@
+﻿  main.cpp
+E:\dev\Pong2P\Pong2PlayerSolution\Pong2Player\main.cpp(86,12): error C3872: '0x201d': this character is not allowed in an identifier
+E:\dev\Pong2P\Pong2PlayerSolution\Pong2Player\main.cpp(87,13): error C3872: '0x201d': this character is not allowed in an identifier
+E:\dev\Pong2P\Pong2PlayerSolution\Pong2Player\main.cpp(88,13): error C3872: '0x201d': this character is not allowed in an identifier
+E:\dev\Pong2P\Pong2PlayerSolution\Pong2Player\main.cpp(89,15): error C3872: '0x201d': this character is not allowed in an identifier

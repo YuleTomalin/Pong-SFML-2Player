@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="HEADERS">
+      <UniqueIdentifier>{b2c026da-38fc-4dcd-afbc-0639b7de35e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CLASSES">
+      <UniqueIdentifier>{7c3f587d-3b67-4564-89a3-521dbd79bf2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CLASSES\CLASS_HEADERS">
+      <UniqueIdentifier>{6d1ed524-e152-41f0-90f8-ba09a9cfb575}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CLASSES\CLASS_MAINS">
+      <UniqueIdentifier>{601c623d-d139-4de1-a6a2-ca81da9d0d12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HEADERS\PREMADE_HEADERS">
+      <UniqueIdentifier>{91531fd2-6aed-4f17-90c5-1e7dd5321f8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SOURCES">
+      <UniqueIdentifier>{23288709-cd09-4aa9-89af-b10370f74a13}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>SOURCES</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>CLASSES\CLASS_MAINS</Filter>
+    </ClCompile>
+    <ClCompile Include="Ball.cpp">
+      <Filter>CLASSES\CLASS_MAINS</Filter>
+    </ClCompile>
+    <ClCompile Include="Line.cpp">
+      <Filter>CLASSES\CLASS_MAINS</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Player.h">
+      <Filter>CLASSES\CLASS_HEADERS</Filter>
+    </ClInclude>
+    <ClInclude Include="Ball.h">
+      <Filter>CLASSES\CLASS_HEADERS</Filter>
+    </ClInclude>
+    <ClInclude Include="Line.h">
+      <Filter>CLASSES\CLASS_HEADERS</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio.h">
+      <Filter>CLASSES\CLASS_HEADERS</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
